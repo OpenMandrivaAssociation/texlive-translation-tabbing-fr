@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-tabbi
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A translation to French (by the author) of the documentation of
@@ -28,7 +26,6 @@ the Tabbing package.
 %doc %{_texmfdistdir}/doc/latex/translation-tabbing-fr/f-Tabbing.dtx
 %doc %{_texmfdistdir}/doc/latex/translation-tabbing-fr/f-Tabbing.pdf
 %doc %{_texmfdistdir}/doc/latex/translation-tabbing-fr/ltxdoc.cfg
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,5 +36,3 @@ the Tabbing package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
