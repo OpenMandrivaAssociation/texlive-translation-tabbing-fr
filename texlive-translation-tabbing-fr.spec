@@ -36,3 +36,16 @@ the Tabbing package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111006-2
++ Revision: 757086
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111006-1
++ Revision: 719802
+- texlive-translation-tabbing-fr
+- texlive-translation-tabbing-fr
+- texlive-translation-tabbing-fr
+
