@@ -5,8 +5,8 @@
 # catalog-license lppl1
 # catalog-version undef
 Name:		texlive-translation-tabbing-fr
-Version:	20111006
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	French translation of the documentation of Tabbing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/Tabbing/fr
