@@ -1,6 +1,6 @@
 Name:		texlive-translation-tabbing-fr
 Version:	24228
-Release:	1
+Release:	2
 Summary:	French translation of the documentation of Tabbing
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/Tabbing/fr
