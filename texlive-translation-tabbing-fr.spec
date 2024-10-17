@@ -3,7 +3,7 @@ Version:	24228
 Release:	2
 Summary:	French translation of the documentation of Tabbing
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/Tabbing/fr
+URL:		https://www.ctan.org/tex-archive/info/translations/Tabbing/fr
 License:	LPPL1
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-tabbing-fr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-tabbing-fr.doc.r%{version}.tar.xz
